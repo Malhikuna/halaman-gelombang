@@ -7,7 +7,11 @@ body {
   background-color: #e2d9f3;
 }
 
-#projects {
+#about {
+  overflow: hidden;
+}
+
+#portfolio {
   background-color: #e2d9f3;
 }
 
@@ -21,4 +25,94 @@ section {
 
 #gallery .row > * {
   padding: 0;
+}
+
+/* My Object 3D */
+.object-box {
+  position: relative;
+  background-color: #59359aff;
+  border-radius: 10px;
+  height: 400px;
+  transform-style: preserve-3d;
+}
+
+.object-box::before {
+  content: "MY";
+  position: absolute;
+  color: #fff;
+  font-size: 3.5em;
+  font-weight: bold;
+  font-style: italic;
+  top: 28px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.object-box:hover::before {
+  opacity: 0.2;
+}
+
+.object-box::after {
+  content: "3D Models";
+  position: absolute;
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.object-box:hover::after {
+  opacity: 0.2;
+}
+
+.object-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 20px);
+  transition: 0.5s;
+}
+
+.object-box:hover .object-name {
+  top: 8px;
+  opacity: 1;
+}
+
+.object-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.object-box:hover .object-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.object-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 30px);
+  max-width: 200px;
+  transition: 0.5s;
+}
+
+.object-box:hover .object-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(10deg) scale(1.2);
 }
