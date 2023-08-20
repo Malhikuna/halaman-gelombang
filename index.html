@@ -71,11 +71,11 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-4 text-satu">
-            <p></p>
+          <div class="col-4 text-satu" data-aos="fade-down" data-aos-delay="1000">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quos distinctio eaque omnis tempora at nemo? Libero, explicabo itaque!</p>
           </div>
-          <div class="col-4 text-dua">
-            <p></p>
+          <div class="col-4 text-dua" data-aos="fade-down" data-aos-delay="1000">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sunt, porro dicta vel consequatur molestiae facere quo nam adipisci laborum, natus reprehenderit maiores accusantium ipsam!</p>
           </div>
         </div>
       </div>
@@ -293,12 +293,6 @@
     <script>
       gsap.registerPlugin(TextPlugin);
       gsap.to(".lead", { duration: 2, delay: 2, text: "CEO | Software Engineer" });
-      gsap.to(".text-satu", { duration: 10, delay: 3, text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quos distinctio eaque omnis tempora at nemo? Libero, explicabo itaque!" });
-      gsap.to(".text-dua", {
-        duration: 10,
-        delay: 3,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sunt, porro dicta vel consequatur molestiae facere quo nam adipisci laborum, natus reprehenderit maiores accusantium ipsam!",
-      });
       gsap.from(".jumbotron img", { duration: 2, y: -100, opacity: 0 });
       gsap.from(".display-4", { duration: 2, y: -100, opacity: 0 });
       // gsap.from(".lead", { duration: 2, y: -100, opacity: 0 });
