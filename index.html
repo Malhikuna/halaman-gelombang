@@ -107,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="400">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
               <img src="img/gallery/portfolio/2.png" class="card-img-top" alt="2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -115,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="600">
+            <div class="card" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="200">
               <img src="img/gallery/portfolio/3.png" class="card-img-top" alt="3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -123,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="800">
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200">
               <img src="img/gallery/portfolio/4.png" class="card-img-top" alt="4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -131,7 +131,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="1000">
+            <div class="card" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="200">
               <img src="img/gallery/portfolio/5.png" class="card-img-top" alt="5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -274,24 +274,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
-      const galleryImage = document.querySelectorAll(".img-satu");
+      const galleryImage = document.querySelectorAll(".gallery-img");
 
       galleryImage.forEach((img, i) => {
-        img.dataset.aos = "fade-right";
-        img.dataset.aosDelay = i * 50;
-      });
-
-      const galleryImagedua = document.querySelectorAll(".img-dua");
-
-      galleryImagedua.forEach((img, i) => {
-        img.dataset.aos = "fade-left";
-        img.dataset.aosDelay = i * 50;
-      });
-
-      const galleryImagetiga = document.querySelectorAll(".img-tiga");
-
-      galleryImagetiga.forEach((img, i) => {
-        img.dataset.aos = "fade-right";
+        img.dataset.aos = "fade-up";
         img.dataset.aosDelay = i * 50;
       });
 
