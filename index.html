@@ -11,6 +11,9 @@
     <!-- Bootsrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Style -->
     <link rel="stylesheet" href="style.css" />
 
@@ -33,7 +36,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -48,7 +51,7 @@
     <section class="jumbotron text-center">
       <img src="img/kucing2.png" alt="kucing2" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">HIkmal Maulana</h1>
-      <p class="lead">CEO | Software Engineer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -62,16 +65,16 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row text text-center mb-3">
+        <div class="row text text-center mb-3" data-aos="fade-down">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-down-right" data-aos-delay="100">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa quos distinctio eaque omnis tempora at nemo? Libero, explicabo itaque!</p>
           </div>
-          <div class="col-4">
+          <div class="col-4" data-aos="fade-down-left" data-aos-delay="300">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sunt, porro dicta vel consequatur molestiae facere quo nam adipisci laborum, natus reprehenderit maiores accusantium ipsam!</p>
           </div>
         </div>
@@ -86,50 +89,50 @@
     </section>
     <!-- Akhir about -->
 
-    <!-- Gallery -->
-    <section id="gallery" style="background-color: #e2d9f3">
+    <!-- Portfolio -->
+    <section id="portfolio" style="background-color: #e2d9f3">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Gallery</h2>
+          <div class="col" data-aos="fade-down">
+            <h2>My Portfolio</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/1.png" class="card-img-top" alt="1" />
+            <div class="card" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="200">
+              <img src="img/gallery/portfolio/1.png" class="card-img-top" alt="1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/2.png" class="card-img-top" alt="2" />
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="400">
+              <img src="img/gallery/portfolio/2.png" class="card-img-top" alt="2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/3.png" class="card-img-top" alt="3" />
+            <div class="card" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="600">
+              <img src="img/gallery/portfolio/3.png" class="card-img-top" alt="3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/4.png" class="card-img-top" alt="4" />
+            <div class="card" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="800">
+              <img src="img/gallery/portfolio/4.png" class="card-img-top" alt="4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/5.png" class="card-img-top" alt="5" />
+            <div class="card" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="1000">
+              <img src="img/gallery/portfolio/5.png" class="card-img-top" alt="5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -144,6 +147,70 @@
           d="M0,0L30,48C60,96,120,192,180,218.7C240,245,300,203,360,160C420,117,480,75,540,74.7C600,75,660,117,720,154.7C780,192,840,224,900,213.3C960,203,1020,149,1080,144C1140,139,1200,181,1260,181.3C1320,181,1380,139,1410,117.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
       </svg>
+    </section>
+    <!-- Akhir Portfolio -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/1.png" alt="Gambar 1" class="img-fluid gallery-img img-satu" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/2.png" alt="Gambar 2" class="img-fluid gallery-img img-satu" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.png" alt="Gambar 3" class="img-fluid gallery-img img-satu" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/4.png" alt="Gambar 4" class="img-fluid gallery-img img-satu" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/5.png" alt="Gambar 5" class="img-fluid gallery-img img-dua" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/6.png" alt="Gambar 6" class="img-fluid gallery-img img-dua" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/7.png" alt="Gambar 7" class="img-fluid gallery-img img-dua" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/8.png" alt="Gambar 8" class="img-fluid gallery-img img-dua" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/9.png" alt="Gambar 9" class="img-fluid gallery-img img-tiga" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/10.png" alt="Gambar 10" class="img-fluid gallery-img img-tiga" />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Akhir Gallery -->
 
@@ -200,8 +267,53 @@
     </footer>
     <!-- Akhir Footer -->
 
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      const galleryImage = document.querySelectorAll(".img-satu");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-right";
+        img.dataset.aosDelay = i * 50;
+      });
+
+      const galleryImagedua = document.querySelectorAll(".img-dua");
+
+      galleryImagedua.forEach((img, i) => {
+        img.dataset.aos = "fade-left";
+        img.dataset.aosDelay = i * 50;
+      });
+
+      const galleryImagetiga = document.querySelectorAll(".img-tiga");
+
+      galleryImagetiga.forEach((img, i) => {
+        img.dataset.aos = "fade-right";
+        img.dataset.aosDelay = i * 50;
+      });
+
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
+
+    <!-- GreenSock -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 2, text: "CEO | Software Engineer" });
+      gsap.from(".jumbotron img", { duration: 2, y: -100, opacity: 0 });
+      gsap.from(".display-4", { duration: 2, y: -100, opacity: 0 });
+      // gsap.from(".lead", { duration: 2, y: -100, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 100 });
+    </script>
+
+    <!-- Google Street -->
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbyeW7b25SZqMQMlf8lhigOUUbkb_0JopVNklb4wrnPn5b4Zj4S1QtrKXIEx3BShStilAQ/exec";
       const form = document.forms["hikmal-contact-form"];
